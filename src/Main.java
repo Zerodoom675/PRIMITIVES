@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        int s = 16_824;
-        byte m = 20;
+        int balance = 16_824;
+        byte mile = 20;
 
         // Объявляете переменные для входных данных и
         // параметров программы: одну для хранения
         // стоимости билета, другую для хранения количества
         // рублей для одной бонусной мили
 
-        int b = s / m;
-        System.out.println(b);
+        int bonus = balance / mile;
+        System.out.println(bonus);
 
         // Рассчитываете количество бонусных миль, используя
         // значения заведённых переменных. Ответ сохраняете в
